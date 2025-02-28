@@ -28,6 +28,8 @@ Duration <- kings["Duration"]
 Duration
 Duration_no_na <- Duration[!is.na(Duration)]
 Duration_no_na
-mean(Duration_no_na) - The result was 19.41509
-median(Duration_no_na) - The result was 16
+mean(Duration_no_na)
+The result was 19.41509
 
+median(Duration_no_na)
+The result was 16
