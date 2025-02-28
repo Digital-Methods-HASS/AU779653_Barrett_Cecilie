@@ -17,3 +17,16 @@ median(rooms, na.rm=TRUE)
 read_csv("data/SAFI_clean.csv")
 
 interviews <- read_csv("data/SAFI_clean.csv")
+
+# Task 5
+
+read.csv2("data/Kongerække-CSV-DAM (1).csv")
+library(tidyverse)
+kings <- read.csv2("data/Kongerække-CSV-DAM (1).csv")
+kings
+Duration <- kings["Duration"]
+Duration
+Duration_no_na <- Duration[!is.na(Duration)]
+Duration_no_na
+mean(Duration_no_na)
+median(Duration_no_na)
